@@ -28,11 +28,11 @@ int main()
 		break;
 	}
 	case'3': {
-		cout << "Функция в разработке" << endl;
+		cout << a << " * " << b << " = " << multiplication(a, b) << endl;
 		break;
 	}
 	case'4': {
-		cout << "Функция в разработке" << endl;
+		cout << a << " / " << b << " = " << division(a, b) << endl;
 		break;
 	}
 
