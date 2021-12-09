@@ -20,11 +20,11 @@ int main()
 	cout << "4-Делить" << endl;
 	switch (_getch()) {
 	case'1': {
-		cout << "Функция в разработке" << endl;
+		cout << a << " + " << b << " = " << summa(a, b) << endl;
 		break;
 	}
 	case'2': {
-		cout << "Функция в разработке" << endl;
+		cout << a << " - " << b << " = " << subtraction(a, b) << endl;
 		break;
 	}
 	case'3': {
